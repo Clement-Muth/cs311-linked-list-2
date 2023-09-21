@@ -89,16 +89,12 @@ public:
      */
     void displayAll();
 
-    // TODO: Add comments
     void addFront(T val);
 
-    // TODO: Add comments
     void addRear(T val);
 
-    // TODO: Add comments
     bool deleteFront(T &val);
 
-    // TODO: Add comments
     bool deleteRear(T &val);
 
     /**
