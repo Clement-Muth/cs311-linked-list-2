@@ -256,13 +256,12 @@ LinkedList::LinkedList(const LinkedList &other)
 
     _front = new Node(other._front->val);
     _rear = nullptr;
-    _count = 0;
+    _count = 1;
     otherPtr = otherPtr->next;
     while (otherPtr != nullptr)
     {
         addRear(otherPtr->val);
         otherPtr = otherPtr->next;
-        _count++;
     }
 }
 
